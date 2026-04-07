@@ -50,7 +50,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the dist directory
+          # Upload the dist directory from pm-portfolio
           path: ./pm-portfolio/dist
       
       - name: Deploy to GitHub Pages
